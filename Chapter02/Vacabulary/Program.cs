@@ -34,3 +34,19 @@ foreach (AssemblyName name in myApp.GetReferencedAssemblies())
         arg1: methodCount,
         arg2: name.Name);
 }
+
+OutputEncoding = System.Text.Encoding.UTF8;
+string grinningEmoji = char.ConvertFromUtf32(0x1F600);
+WriteLine(grinningEmoji);
+
+var person = new { FirstName = "Alice", Age = 56 };
+
+string json = $$"""
+              {
+                "first_name": "{{person.FirstName}}",
+                "age": {{person.Age}},
+                "calculation": "{{{ 1 + 2 }}}"
+              }
+              """;
+
+WriteLine(json);
