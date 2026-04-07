@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="Arguments/Arguments.csproj" Id="52a68f45-ec03-4d90-bd1a-1a9f69ab7dc3" />
+  <Project Path="AsyncConsole/AsyncConsole.csproj" Id="1a2d465a-6a38-4d21-ad53-f6700755b9e5" />
   <Project Path="Formatting/Formatting.csproj" Id="86cdb786-8a10-4ad6-8ad7-e773d4cc1e3f" />
   <Project Path="Numbers/Numbers.csproj" Id="b35eae13-26bd-40d1-8b2b-74276951c248" />
   <Project Path="Vacabulary/Vocabulary.csproj" />
