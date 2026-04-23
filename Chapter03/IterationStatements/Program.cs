@@ -1,21 +1,21 @@
 ﻿int x = 0;
-while (x < 10)
-{
-    WriteLine(x);
-    x++;
-}
+//while (x < 10)
+//{
+//    WriteLine(x);
+//    x++;
+//}
 
-string? actualPassword = "Pa$$w0rd";
-string? password;
+//string? actualPassword = "Pa$$w0rd";
+//string? password;
 
-do
-{
-    WriteLine("Enter your password: ");
-    password = ReadLine();
-}
-while (password != actualPassword);
+//do
+//{
+//    WriteLine("Enter your password: ");
+//    password = ReadLine();
+//}
+//while (password != actualPassword);
 
-WriteLine("Correct!");
+//WriteLine("Correct!");
 
 string[] names = { "Adam", "Barry", "Charlie" };
 
